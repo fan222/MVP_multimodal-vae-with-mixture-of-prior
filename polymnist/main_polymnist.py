@@ -74,11 +74,6 @@ torch.backends.cudnn.benchmark = True
 torch.manual_seed(args.seed)
 np.random.seed(args.seed)
 
-# load args from disk if pretrained model path is given
-#pretrained_path = ""
-#if args.pre_trained:
-#    pretrained_path = args.pre_trained
-#    args = torch.load(args.pre_trained + '/args.rar')
 
 args.cuda = not args.no_cuda and torch.cuda.is_available()
 device = torch.device("cuda:0" if args.cuda else "cpu")
@@ -133,6 +128,13 @@ objective = getattr(objectives, 'm_'+ args.obj)
 # Cuda stuff
 needs_conversion = not args.cuda
 conversion_kwargs = {'map_location': lambda st, loc: st} if needs_conversion else {}
+
+
+# pretrained_path = './'
+
+# print('Loading model {} from {}'.format(model.modelName, pretrained_path))
+# model.load_state_dict(torch.load(pretrained_path + '/model_50.rar', map_location=torch.device('cuda:0')))
+
 
 # Load pretrained classifiers for each modality
 clfs = [ClfImg() for idx, modal in enumerate(model.vaes)]
