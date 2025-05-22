@@ -1,1 +1,3 @@
 *.pyc
+polymnist/outputs/
+trimodal_fanshionmnist/outputs/
