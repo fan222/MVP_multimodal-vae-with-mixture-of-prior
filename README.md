@@ -5,7 +5,7 @@ Official PyTorch implementation for MVP, introduced in the paper: Multimodal Dis
 
 ## Download datasets
 
-For PolyMNIST and CUB Image-Captions dataset, please find download link to in [MMVAE+](https://github.com/epalu/mmvaeplus) repo.
+For PolyMNIST and CUB Image-Captions dataset, please find download link in [MMVAE+](https://github.com/epalu/mmvaeplus) repo.
 
 Tri-modal FashionMNIST dataset and pre-trained model weights for PolyMIST dataset can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1enPxrlTObmWI32MdPUTZc9fHulNtCZoJ?usp=drive_link)
 
