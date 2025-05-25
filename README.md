@@ -1,13 +1,13 @@
 # MVP_multimodal vae with mixture-of-prior
 
-Official PyTorch implementation for MVP, introduced in the paper [Multimodal Disentanglement by Latent Variable Separation with Surrogate Modal Specifics and Mixture-of-Distributions Priors].
+Official PyTorch implementation for MVP, introduced in the paper: Multimodal Disentanglement by Latent Variable Separation with Surrogate Modal Specifics and Mixture-of-Distributions Priors.
 
 
 ## Download datasets
 
 For PolyMNIST and CUB Image-Captions dataset, please find download link to in [MMVAE+](https://github.com/epalu/mmvaeplus) repo.
 
-For Tri-modal FashionMNIST dataset, download from [Google Drive](https://)
+Tri-modal FashionMNIST dataset and pre-trained model weights for PolyMIST dataset can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1enPxrlTObmWI32MdPUTZc9fHulNtCZoJ?usp=drive_link)
 
 ## Experiments
 Run on PolyMNIST dataset
