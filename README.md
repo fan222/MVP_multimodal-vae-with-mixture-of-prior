@@ -1,6 +1,6 @@
 # MVP_multimodal vae with mixture-of-prior
 
-Official PyTorch implementation for MVP, introduced in the paper: Multimodal Disentanglement by Latent Variable Separation with Surrogate Modal Specifics and Mixture-of-Distributions Priors.
+Official PyTorch implementation for MVP, introduced in the [paper](https://epubs.siam.org/doi/10.1137/24M1701514): Multimodal Disentanglement by Latent Variable Separation with Surrogate Modal Specifics and Mixture-of-Distributions Priors, SIAM Journal on Imaging Sciences, 2025.
 
 
 ## Download datasets
